@@ -12,4 +12,8 @@ export class AddBookComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  goBack() {}
+
+  save() {}
+
 }
