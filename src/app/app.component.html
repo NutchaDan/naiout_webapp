@@ -8,8 +8,19 @@
 </head>
 
 <body>
-    <mat-toolbar class="navbar">
-        <span>NaiOut</span>
-    </mat-toolbar>
-    <app-add-book></app-add-book>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #7c32c0;">
+        <div class="container">
+        <a class="navbar-brand">NaiOut</a>
+  
+        <div id="navbarNav" class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" routerLinkActive="active" routerLink="/add-book">Admin</a>
+                </li>
+            </ul>
+        </div>
+        </div>
+</nav>
+  
+<router-outlet></router-outlet>
 </body>

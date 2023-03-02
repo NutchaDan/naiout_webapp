@@ -7,6 +7,7 @@ import { HomeComponent } from './home/home.component';
 import { DetailComponent } from './detail/detail.component';
 import { AddBookComponent } from './add-book/add-book.component';
 import { ListComponent } from './list/list.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
@@ -35,7 +36,7 @@ import { MatInputModule } from '@angular/material/input';
     BrowserAnimationsModule,
     MatButtonModule,
     MatIconModule,
-    MatInputModule
+    MatInputModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
